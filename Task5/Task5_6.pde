@@ -47,5 +47,14 @@ void draw(){
   // 3 % 3 = 0
  
   //Add the code for 6.c here
+  //Her gør jeg brug at if statement til at sige hvis counter==0 er rigtig så bliver den sat til (int)random(255)
   blue = counter==0? (int)random(255):blue;
+  
+  /* Her kunne den også skrive(info til mig selv, hvor det er mere tydeligt hvad der sker)
+  if (counter ==0){
+    red = (int)random(255);
+  } else { 
+    red = red;
+  } */
+  
 }
