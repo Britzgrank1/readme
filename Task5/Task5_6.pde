@@ -8,13 +8,18 @@ int x;
 int y;
 int counter = 0;
 int rowCounter =1;
+int red;
+int blue;
+int green;
 void setup(){
    size(400,400);
   
    numberOfCircles = 30;
    circleSize = width/numberOfCircles;
    ellipseMode(CORNER);
-  
+  green = 255;
+  red = 255;
+  blue = 255;
 }
 void draw(){
   
@@ -22,8 +27,8 @@ void draw(){
   x = circleSize*counter;
   y = circleSize*rowCounter;
  
- // Un-comment this line after completing step 6.a 
- // fill(red,green,blue);
+ 
+ fill(red,green,blue);
    
    ellipse(x,y,circleSize,circleSize);
   
@@ -42,5 +47,5 @@ void draw(){
   // 3 % 3 = 0
  
   //Add the code for 6.c here
-  
+  blue = counter==0? (int)random(255):blue;
 }
