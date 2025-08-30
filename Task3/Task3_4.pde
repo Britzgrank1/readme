@@ -34,6 +34,17 @@ pant = pant+2.5;
   println("sodaVand:"+sodaVand);
   println("pant:"+pant);
   
-  //Tæl numeriske variabler op med 1.udskriv (3.f/4.g/4.h)
+  //Tæl numeriske variabler op med 1.udskriv (3.f/4.g/4.h) (her har jeg prøvet begge måder)
   sodaVand += 1;
+  energiDrik +=  1;
+  pant += 1;
+  
+  //Tæl numeriske variabler op med 3.udskriv
+  sodaVand = sodaVand + 3;
+  energiDrik = energiDrik + 3;
+  pant = pant + 3;
+  //Tæl numeriske variabler ned med 1.udskriv
+  sodaVand -= 1;
+  energiDrik -= 1;
+  pant -= 1;
 }
